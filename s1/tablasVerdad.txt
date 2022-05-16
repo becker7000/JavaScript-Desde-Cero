@@ -1,0 +1,32 @@
+
+Operador lógico and (&&)
+Es un operador binario y es infijo.
+
+Tabla de verdad:
+
+    x  y  -> x&&y
+    V  V      V
+    V  F      F
+    F  V      F
+    F  F      F
+
+Operador lógico or (||)
+Es un operador binario y es infijo.
+
+Tabla de verdad:
+
+    x  y  -> x||y
+    V  V      V
+    V  F      V
+    F  V      V
+    F  F      F
+
+Operador lógico not (!)
+Es operador unario y es prefijo.
+
+Tabla de verdad:
+
+      x  -> !x
+      V     F  
+      F     V
+        
