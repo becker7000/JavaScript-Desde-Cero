@@ -1,0 +1,17 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contenedor{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue ;
+    border-radius: 15px;
+}
+
+button{
+    width: 200px;
+}
