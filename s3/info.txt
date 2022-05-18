@@ -1,0 +1,2 @@
+AJAX no es un lenguaje de programación.
+Es más bien una técnica para recargar una página sin llamar a un servidor.
