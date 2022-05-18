@@ -15,3 +15,28 @@ body{
 button{
     width: 200px;
 }
+
+#menu a{
+    text-decoration: none;
+    border-radius: 15px;
+    width: 100px;
+    color: white;
+}
+
+p{
+    background-color: black;
+ 
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#imagen{
+    width: 500px;
+}
