@@ -1,0 +1,18 @@
+clase Planeta:
+
+Atributos:
+nombre
+galaxia
+tamaño
+distanciaAlSol
+numeroSatelites
+posicion
+color
+
+Métodos:
+Planeta(nombre,tamaño);
+getNombre();
+setNombre(nombre);
+verDatos();
+darDeBaja();
+guardarEnArchivo();
