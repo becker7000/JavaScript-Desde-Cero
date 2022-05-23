@@ -1,2 +1,2 @@
 # CursoJavaScriptCST
-Ejemplos y ejercicios vistos en clase CST (Mayo).
+Ejercicios, ejemplos, notas y complementos de la clase de JavaScript (Mayo 2022).
