@@ -16,6 +16,8 @@ var logico=true;
     función 2.
 */
 
+saludar("Luis");
+
 /**
  * Esta función saluda a una persona 
  * a partir de su nombre.
@@ -25,3 +27,5 @@ var logico=true;
 function saludar(nombre){
     document.write("Hola "+nombre);
 }
+
+saludar("Paco");
