@@ -34,3 +34,14 @@ document.write("<br> Cuadrado: "+cuadrado(7));
 (function(){
     document.write("<br> Hola a todos desde una función autoinvocada.");
 })();
+
+
+//Modo estricto: corta las malas prácticas.
+function resto(a,b){
+    "use strict";
+    let resto=a%b;
+    // t=10; esto daría un error "use strict";
+    return resto;
+}
+
+console.log(resto(20,3));
