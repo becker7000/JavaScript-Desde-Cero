@@ -35,3 +35,13 @@ $.ajax("https://randomuser.me/api?results=15",{
     }
     
 });
+
+/*
+    jQuery es una librería para JavaScript que nos facilita la consulta 
+    y manupulación de elementos del DOM mediante selectores y métodos.
+
+    JSON significa JavaScript Object Notation.
+
+    AJAX significa: Asynchrous JavaScript and XML.
+
+*/

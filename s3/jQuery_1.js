@@ -1,5 +1,5 @@
 
-//Forma #2 de usa AJAX -> jQuery.
+//Forma #2 de usar AJAX -> jQuery.
 
 function peticion(){
 
