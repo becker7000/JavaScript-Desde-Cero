@@ -1,1 +1,1 @@
-Hola a todos con AJAX.
+Hola a todos desde AJAX con jQuery.
