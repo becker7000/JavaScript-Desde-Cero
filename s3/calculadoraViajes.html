@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadoraViajes.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="calculadora">
+
+            <form id="viaje" class="viaje" name="viaje">
+
+                <h2 class="titulo">calculadora de viaje</h2>
+
+                <input type="text" name="destino" id="destino" placeholder="Cancún"><br>
+
+                <input type="number" name="presupuesto" placeholder="Presupuesto" id="presupuesto"><br>
+
+                <input type="number" name="transporte" placeholder="Transporte" id="transporte"><br>
+
+                <input type="number" name="hospedaje" placeholder="Hospedaje" id="hospedaje"><br>
+
+                <input type="number" name="comidas" placeholder="Comidas" id="comidas"><br>
+
+                <input type="submit" name="Enviar" value="Calcular" id="calcular"><br>
+
+            </form>
+
+            <div class="pantalla" id="pantalla">
+
+                <p id="mostrar"></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="calculadoraViajes.js"></script>
+
+</body>
+</html>
