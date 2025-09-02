@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú con JQuery</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" 
+    crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: #d9d0d0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 0;
+        }
+        button{
+            background-color: #d9534f;
+            color: white;
+            width: 200px;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 40px;
+            transition: background-color 0.5s ease;
+        }
+        button:hover{
+            background-color: #c9302c;
+        }
+        #contenedor{
+            display: none;
+            width: 240px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            padding: 12px;
+            text-align: left;
+            transition: background-color 0.5s color 0.5s;
+        }
+        li a{
+            text-decoration: none;
+            color: #5d4037;
+            display: block;
+        }
+        li:hover{
+            background-color: #333;
+            border-radius: 8px;
+        }
+        li a:hover{
+            color: #fff;
+        }
+
+        /* Animación de deslizamiento: */
+        .slide{
+            display: none;
+            animation: slideIn 0.5 forwards;
+        }
+
+        @keyframes slideIn{
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        #formularioContacto{
+            display: none; 
+            background-color: white;
+            padding: 20px;
+            margin: 40px auto;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        #formularioContacto input, #formularioContacto textarea {
+            width: 88%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        #formularioContacto button{
+            width: auto;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        #formularioContacto button:hover{
+            background-color: #125721;
+        }
+
+        #resultado{
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <button onclick="mostrarMenu()">Opciones</button>
+
+    <div id="contenedor">
+        <ul>
+            <li><a href="#" onclick="mostrarInformacion()">Opción 1: Información</a></li>
+            <li><a href="#" onclick="cambiarTema()">Opción 2: Cambiar tema</a></li>
+            <li><a href="#" onclick="mostrarFormulario()">Opción 3: Contacto</a></li>
+            <li><a href="#" onclick="cargarDatos()">Opción 4: Cargar datos aleatorios</a></li>
+        </ul>
+    </div>
+
+    <!-- Bloque de información -->
+    <div id="informacion" style="display: none;">
+        <h3>Sobre nosotros</h3>
+        <p>Este sitio web tiene en cuenta la experiencia del usuario usando JQuery</p>
+        <button onclick="cerrarModal()">Cerrar</button>
+    </div>
+
+    <!-- Bloque del formulario del contacto -->
+    <div id="formularioContacto">
+        <h3>Contacto</h3>
+        <form id="contactoForm">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensaje">Mensaje: </label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Bloque para los usuarios aleatorios-->
+    <div id="resultado"></div>
+
+    <script>
+
+        function mostrarMenu(){
+            var contenedor = $("#contenedor");
+
+            if(contenedor.is(":hidden")){
+                contenedor.stop(true,true).slideDown(500).addClass("slide");
+            }else{
+                contenedor.stop(true,true).slideUp(500).removeClass("slide");
+            }
+        }
+
+        function mostrarInformacion(){
+            $("#informacion").show();
+        }
+
+        function cerrarModal(){
+            $("#informacion").hide();
+        }
+
+        function cambiarTema(){
+            var temaActual = document.body.style.backgroundColor;
+            if(temaActual == 'rgb(255, 255, 255)' || temaActual == ''){
+                document.body.style.backgroundColor = '#333';
+            }else{
+                document.body.style.backgroundColor = '#fff';
+                document.body.style.color = '#000';
+            }
+        }
+
+        function mostrarFormulario(){
+            $("#contenedor").stop(true,true).slideUp(500).removeClass("slide");
+            if($('#formularioContacto').is(':visible')){
+                $('#formularioContacto').hide()
+            }else{
+                $('#formularioContacto').show()
+            }
+        }
+
+        function cargarDatos(){
+            // TODO: implementar funcionamiento
+            // TIP: similar a ajax_text_api.js
+        }
+
+    </script>
+    
+</body>
+</html>

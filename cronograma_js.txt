@@ -1,0 +1,96 @@
+[DÍA 1]
+-------------------------------------------------------
+Ejemplo1_DOM.PNG
+hola.html
+reglas.js
+holaOtraVez.html - holaOtraVez.js
+salidas.html - salidas.js
+-------------------------------------------------------
+tiposDatos.html - tiposDatos.js
+variables.html - variables.js
+operadores.html - operadores.js
+calculadoraIVA.html - calculadora.js
+ahorro.html - ahorro.js (sin html)
+operadoresCadenas.html - operadoresCadenas.js (sin html)
+comparación.html - comparación.js (sin html)
+tablas de verdad
+--------------------------------------------------------
+if.html - if.js
+if-elseif-else.html - if-elseif-else.js (sin html)
+(proponer más ejercicios)
+switch.html - switch.js (sin html)
+--------------------------------------------------------
+for.html - for.js (sin html)
+factorial.html factorial.js (no existe)
+forin.html - forin.js (sin html)
+forof.html - forof.js (sin html)
+while.html - while.js
+sumaGauss.html - sumaGauss.js
+muestraArreglo.js (no existe)
+doWhile.html - doWhile.js
+filtro2.html - filtro2.js (no existe (ellos))
+interrupcion.html - interrupcion.js
+--------------------------------------------------------
+
+[DÍA 2]
+--------------------------------------------------------
+planeta.js
+automovil.js
+planetaTest.js
+automovilTest.js	
+--------------------------------------------------------
+excepciones.html - excepciones.js
+excepciones2.html - excepciones2.js
+--------------------------------------------------------
+arrays.html - arrays.js
+ejercicio1.html - ejercicio1.js (no existe)
+ejercicio2.html - ejercicio2.js (no existe)
+ejercicio3.html - ejercicio3.js (no existe)
+matriz.html - matriz.js
+--------------------------------------------------------
+funcionesEstandar.html - funcionesEstandar.js 
+funcionesDate.html - funcionesDate.js (sin html)
+ejercicio1.html - ejercicio1.js (no existe)
+funcionesPersonalizadas.html - funcionesPersonalizadas.js
+ejercicioIMC.html - ejercicioIMC.js (func_test1.js)
+ejercicioDescuento.html - ejercicioDescuento.js (func_test2.js)
+exp_func.js
+autoinvocada.js
+ejercicioAutoinvocada.js (no existe)
+arrowFunctions.html - arrowFunctions.js (plus sin html)
+--------------------------------------------------------
+ventana.html - ventana.js
+efecto.html - efecto.js
+history.html - history.js
+infoWeb.html -infoWeb.js (no existe)
+objetos.html - objetos.js
+objeto_lit.js
+localizacionSatelital.html - localizacionSatelital.js
+--------------------------------------------------------
+
+[DÍA 3]
+--------------------------------------------------------
+controladorEventos.html - controladorEventos.js
+reloj.html - reloj.js
+animacion.html - animacion.css - animacion.js
+--------------------------------------------------------
+validacion.html - validacion.js
+validacion2.html - validacion2.js
+expresionesRegulares.html - expresionesRegulares.js
+--------------------------------------------------------
+[AJAX] (instalar live-server)
+XMLHttpRequest.html - XMLHttpRequest.js - archivo.txt
+(meter JQuery en caso de emergencia)
+--------------------------------------------------------
+cookie.html - cookie.js (verificar en inspector de código)
+--------------------------------------------------------
+menu.html
+----------------------------------------------------------
+
+
+
+
+
+
+
+
